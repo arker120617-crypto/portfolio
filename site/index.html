@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO: CHANGE TITLE / DESCRIPTION HERE -->
+<title>AR KER | Frontend Developer / Photographer / Videographer</title>
+<meta name="description" content="AR KERのポートフォリオ。フロントエンド開発を学びながら、写真・映像制作の経験を活かしたWebサイト制作を目指しています。">
+<!-- Open Graph: CHANGE URL AND IMAGE AFTER PUBLISHING -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="AR KER | Portfolio">
+<meta property="og:description" content="Frontend Developer / Photographer / Videographer">`
+<meta property="og:image" content="images/profile/profile.jpg">
+<!-- favicon: REPLACE assets/favicon.svg -->
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<header class="header"><nav class="nav container" aria-label="メインナビゲーション">
+  <a href="#home" class="logo"><span class="hanko hanko-s" aria-hidden="true">AK</span><span>AR KER</span></a>
+  <ul class="menu" id="menu">
+    <li><a href="#home">ホーム</a></li><li><a href="#about">私について</a></li><li><a href="#skills">スキル</a></li><li><a href="#projects">制作実績</a></li><li><a href="#journey">経歴</a></li><li><a href="#contact">連絡先</a></li>
+  </ul>
+  <button class="icon-btn" id="themeBtn" aria-label="ダークモード切り替え">暗</button>
+  <button class="icon-btn burger" id="burger" aria-label="メニュー" aria-expanded="false">☰</button>
+</nav></header>
+
+<main>
+<section id="home" class="hero">
+  <svg class="enso" viewBox="0 0 200 200" aria-hidden="true"><path d="M150 38 C 118 6, 52 14, 34 66 C 18 114, 52 172, 106 176 C 158 180, 188 134, 178 92 C 175 80, 170 70, 164 62" pathLength="1"/></svg>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="greet">こんにちは、AR KERです。</p>
+      <p class="role">Frontend Developer / Photographer / Videographer</p>
+      <p class="lead">現在、エール学園ICT校 AIビジネス学科で、IT・AI・ビジネスを学んでいます。フロントエンド開発を学びながら、写真・映像制作の経験も活かし、見やすく、使いやすく、魅力的なWebサイトを制作できる人材を目指しています。</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">制作実績を見る</a>
+        <!-- ADD YOUR RESUME PDF HERE: put the file at resume/resume.pdf -->
+        <a class="btn" href="resume/resume.pdf" download>履歴書をダウンロード</a>
+      </div>
+      <ul class="social" id="socialHero"></ul>
+    </div>
+    <h1 class="tate"><span>テクノロジーとクリエイティブで、</span><span>アイデアをカタチに。</span></h1>
+    <!-- CHANGE YOUR PROFILE IMAGE HERE: replace images/profile/profile.jpg -->
+    <figure class="profile"><img src="images/profile/profile.jpg" alt="AR KERのプロフィール写真" width="480" height="600" onerror="this.remove()"><span class="ph">写真</span><span class="hanko" aria-hidden="true">AR<br>KER</span></figure>
+  </div>
+</section>
+
+<section id="about" class="section"><div class="container wrap">
+  <h2>私について <small>About</small></h2>
+  <p>私は現在、日本のエール学園ICT校 AIビジネス学科で学んでいます。技術やビジネスが発展している日本で、新しい知識や考え方を学びたいと考え、来日しました。</p>
+  <p>学んだIT・AI・ビジネスの知識を将来の仕事に活かし、日本とミャンマーをはじめ、国や文化を越えて人やビジネスをつなぐ人材になりたいと考えています。将来的には、新しいサービスやビジネスを生み出し、多くの人に価値を届けられる会社をつくることも目標のひとつです。</p>
+  <p>来日当初は、言語や文化の違いに難しさを感じました。それでも、分からないことをそのままにせず、メモを取り、質問し、自分で調べながら少しずつ成長してきました。一度決めたことは、最後まで努力を続けることを大切にしています。</p>
+  <p>ITに加えて、写真・映像制作の経験もあります。「技術 × ビジネス × クリエイティブ」の3つの視点から物事を考えられることが、私の強みです。</p>
+</div></section>
+
+<section id="skills" class="section alt"><div class="container wrap">
+  <h2>スキル <small>Skills</small></h2>
+  <h3>Frontend Development <span class="tag">学習中</span></h3>
+  <p class="muted">フロントエンド開発を中心に学習中です。</p>
+  <!-- ADD YOUR SKILL HERE: copy one <li> (e.g. add React) -->
+  <ul class="cards">
+    <li><b>HTML5</b><span class="tag">学習中</span></li>
+    <li><b>CSS3</b><span class="tag">学習中</span></li>
+    <li><b>JavaScript</b><span class="tag">学習中</span></li>
+    <li><b>Responsive Web Design</b><span class="tag">学習中</span></li>
+    <li><b>Git / GitHub</b><span class="tag">学習中</span></li>
+    <li><b>UI/UX Basics</b><span class="tag">学習中</span></li>
+  </ul>
+
+  <h3>AI &amp; Business</h3>
+  <p>エール学園ICT校 AIビジネス学科で、IT・AI・ビジネスの知識を学んでいます。AIを技術として知るだけでなく、「AIやITをどのように社会やビジネスの課題解決に活用できるか」という視点を大切にしています。</p>
+
+  <h3>Photography <span class="muted">2018年頃〜</span></h3>
+  <p>人物・イベント・風景などを撮影してきました。撮影後の編集・レタッチも行います。「写真を見た人に何を感じてもらいたいのか」を考えて撮影しています。</p>
+  <ul class="chips"><li>Portrait Photography</li><li>Event Photography</li><li>Adobe Lightroom</li><li>Adobe Photoshop</li><li>Photo Retouching</li><li>Color Correction</li></ul>
+
+  <h3>Video / Videography</h3>
+  <p>ミャンマーで映像制作に取り組みました。撮影だけでなく、構成・編集・色調整も経験しています。大きな制作会社での実績ではありませんが、実際の撮影現場で技術を磨いてきました。</p>
+  <ul class="chips"><li>Wedding Video</li><li>Event Video</li><li>Promotional Video</li><li>Short Video</li><li>Adobe Premiere Pro</li><li>DaVinci Resolve</li><li>CapCut</li></ul>
+
+  <h3>Creative Thinking</h3>
+  <p>Web制作・写真・映像のどれでも、次の4点を考えて制作しています。ツールを操作するだけでなく、目的を考えて制作することを大切にしています。</p>
+  <ul class="cards"><li>誰に見てもらうのか</li><li>何を伝えたいのか</li><li>どうすれば分かりやすくなるのか</li><li>どうすれば印象に残るのか</li></ul>
+</div></section>
+
+<section id="projects" class="section"><div class="container wrap">
+  <h2>制作実績 <small>Projects</small></h2>
+  <div class="filters" role="group" aria-label="カテゴリー絞り込み">
+    <button class="active" data-f="all">すべて</button><button data-f="web">Web</button><button data-f="photo">写真</button><button data-f="video">映像</button>
+  </div>
+  <div id="webGrid" class="grid" data-g="web"></div>
+  <div id="photoGrid" class="gallery" data-g="photo"></div>
+  <div id="videoGrid" class="grid" data-g="video"></div>
+  <p class="muted note">※ Web作品は学習用のサンプルプロジェクトです。実務案件ではありません。</p>
+</div></section>
+
+<section id="journey" class="section alt"><div class="container wrap">
+  <h2>経歴 <small>Journey</small></h2>
+  <!-- ADD YOUR TIMELINE ITEM HERE: only add dates you can confirm -->
+  <ol class="timeline">
+    <li><b>2018</b><span>Photographyの活動を開始</span></li>
+    <li><b>2018–2022</b><span>人物・イベントなどの写真撮影、映像制作を経験</span></li>
+    <li><b>Japan</b><span>日本へ留学</span></li>
+    <li><b>現在</b><span>エール学園ICT校 AIビジネス学科で学習中</span></li>
+    <li><b>現在</b><span>Frontend Developmentを中心にITスキルを学習中</span></li>
+    <li><b>Future</b><span>IT・AI・クリエイティブの経験を活かせる仕事に挑戦</span></li>
+  </ol>
+</div></section>
+
+<section id="contact" class="section"><div class="container wrap">
+  <h2>連絡先 <small>Contact</small></h2>
+  <div class="contact-grid">
+    <ul class="info" id="contactInfo"></ul>
+    <form id="form" novalidate>
+      <label>お名前<input name="name" required autocomplete="name"></label>
+      <label>メールアドレス<input type="email" name="email" required autocomplete="email"></label>
+      <label>会社名(任意)<input name="company" autocomplete="organization"></label>
+      <label>件名<input name="subject" required></label>
+      <label>メッセージ<textarea name="message" rows="5" required></textarea></label>
+      <button class="btn primary" type="submit">メッセージを送る</button>
+      <p id="formMsg" role="status"></p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container">
+  <b>AR KER</b><p class="muted">Frontend Developer / Photographer / Videographer</p>
+  <ul class="social" id="socialFooter"></ul>
+  <p class="muted">© 2026 AR KER. All Rights Reserved.</p>
+</div></footer>
+
+<div class="lightbox" id="lightbox" hidden><button class="icon-btn" id="lbClose" aria-label="閉じる">✕</button><img alt=""></div>
+<script src="js/main.js"></script>
+</body>
+</html>
